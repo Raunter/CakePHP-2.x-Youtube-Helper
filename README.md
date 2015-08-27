@@ -6,7 +6,7 @@ Inspired by:
 
 * [Youtube Helper by Tomas Pavlatka](http://bakery.cakephp.org/articles/pavlatka/2011/09/09/youtube_helper_using_youtube_iframe_player_api)
 * [Youtube Helper by Carly Marie](http://bakery.cakephp.org/articles/cmarie/2010/11/20/youtube_helper_3)
-* [Youtube Helper by Mark Löhe](https://github.com/bfncs/YoutubeHelper)
+* [Youtube Helper by Mark LÃ¶he](https://github.com/bfncs/YoutubeHelper)
 
 
 
@@ -24,7 +24,7 @@ Include the helper in your Controller:
 
     <?php
     class MyController extends AppController {
-      public $helpers = array('Youtube.Youtube');
+      public $helpers = array('Youtube');
     }
 
 You can also pass your own defaults for Iframe and Player to the helper like this:
